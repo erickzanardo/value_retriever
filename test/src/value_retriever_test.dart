@@ -67,7 +67,6 @@ void main() {
         ..onRetrivement(handler2)
         ..removeHandler(handler1);
 
-
       expect(await value.retrieve(), equals('Hey Ho Lets go'));
     });
   });

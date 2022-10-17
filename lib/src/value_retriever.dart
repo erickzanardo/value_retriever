@@ -1,4 +1,3 @@
-
 import 'dart:async';
 
 /// Defines a function used to handle a value retrievement.
@@ -13,8 +12,7 @@ typedef ValueRetrieverHandler<T> = bool Function(Completer<T?>);
 /// {@endtemplate}
 class ValueRetriever<T> {
   /// {@macro value_retriever}
-  ValueRetriever([T? initialValue])
-      : _currentValue = initialValue;
+  ValueRetriever([T? initialValue]) : _currentValue = initialValue;
 
   T? _currentValue;
 
