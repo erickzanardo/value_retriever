@@ -1,7 +1,7 @@
 name: value_retriever
 description: A package that creates a value controller that allows a value to be retrieved
 version: 0.0.1
-publish_to: none
+repository: https://github.com/erickzanardo/value_retriever
 
 environment:
   sdk: ">=2.18.0 <3.0.0"
