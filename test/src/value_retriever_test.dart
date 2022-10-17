@@ -1,4 +1,5 @@
-// ignore_for_file: prefer_const_constructors, prefer_function_declarations_over_variables
+// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_function_declarations_over_variables
 import 'dart:async';
 
 import 'package:test/test.dart';
